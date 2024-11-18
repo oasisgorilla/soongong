@@ -1,5 +1,10 @@
 import tkinter as tk # GUI 라이브러리
 
+"""
+pyinstaller --onefile --windowed soongong.py
+명령어로 exe파일을 만들 수 있음
+"""
+
 class StudyTimerApp:
     def __init__(self, root):
         self.root = root # 최상위 윈도우
